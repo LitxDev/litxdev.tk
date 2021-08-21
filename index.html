@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="navToggle.js" defer></script>
+    <title>LitxDev | Home</title>
+</head>
+<body>
+    <nav class="navbar" data-aos="fade-in">
+       <div class="brand-title"><a href="http://litxdev.tk">LitxDev</a></div>
+       <a href="#" class="toggle-button">
+           <span class="bar"></span>
+           <span class="bar"></span>
+           <span class="bar"></span>
+       </a>
+       <div class="navbar-links">
+           <ul>
+               <li><a href="http://litxdev.tk">Home</a></li>
+               <li><a href="http://litxdev.tk/games">Games</a></li>
+               <li><a href="http://litxdev.tk/about">About Me</a></li>
+           </ul>
+       </div>
+    </nav>
+
+        <div class="centered section-top">
+            <h1 data-aos="fade-right" style="color: #00cdf9;">Hello,</h1>
+            <h1 data-aos="fade-left">I'm LitxDev</h1>
+        </div>
+
+        <div class="centered section-middle">
+            <h1 data-aos="zoom-out">
+                I'm a young <strong>indie game developer</strong> i mostly use <strong>godot</strong>
+            </h1>
+            <h1 data-aos="flip-down">
+                and i like <strong>linux</strong> and computers in general
+            </h1>
+        </div>
+
+        <div class="centered section-bottom">
+            <a href="https://github.com/LitxDev" target="_blank"><img src="/images/github.svg" alt="" data-aos="fade-right"></a>
+            <a href="https://litxdev.itch.io/" target="_blank"><img src="/images/itch-io.svg" alt="" data-aos="zoom-in"></a>
+            <a href="mailto: litxdevstuff@gmail.com" target="_blank"><img src="/images/gmail.svg" alt="" data-aos="fade-left"></a>
+        </div>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>AOS.init(
+        {
+                once: false,
+                mirror: true,
+                anchorPlacement: 'top-bottom',
+                offset: 0,
+                duration: 800
+        });
+        </script>
+</body>
+</html>
