@@ -21,7 +21,7 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-strong {
+span {
     border-radius: 20px;
     background-color: #00cdf9;
     line-height: 1.5;
@@ -74,7 +74,7 @@ a {
 
 .toggle-button {
     position:  absolute;
-    top: 1.1rem;
+    top: 0.9rem;
     right: 1rem;
     display: none;
     flex-direction: column;
@@ -156,7 +156,7 @@ a {
     font-size: 3rem;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     .navbar{
         flex-direction: column;
         align-items: flex-start;
@@ -168,7 +168,7 @@ a {
     }
 
     .brand-title {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 
     .navbar-links {
@@ -198,6 +198,10 @@ a {
         display: flex;
     }
 
+    .toggle-button.active .bar {
+        background-color: #00cdf9;
+    }
+
     .section-top {
         margin-top: 100px;
     }
@@ -217,14 +221,14 @@ a {
 
     .aboutme-link {
         margin-top: 50px;
-        padding: 0.2rem;
+        padding: 0.4rem;
         font-size: 1rem;
         border-radius: 2rem;
         background-color: #00cdf9;
     }
 
     .section-bottom {
-        margin-top: 200px;
+        margin-top: 135px;
     }
 
     .section-bottom img {
