@@ -22,7 +22,7 @@ body::-webkit-scrollbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #ECF0F1;
+    color: white;
 }
 
 .brand-title {
@@ -45,7 +45,7 @@ body::-webkit-scrollbar {
 a {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    color: #ECF0F1;
+    color: white;
     text-transform: uppercase;
 }
 
@@ -75,12 +75,12 @@ a {
 .toggle-button .bar {
     height: 3px;
     width: 100%;
-    background-color: #ECF0F1;
+    background-color: white;
     border-radius: 10px;
 }
 
 .centered {
-    color: #ECF0F1;
+    color: white;
     font-family: 'Lato', sans-serif;
     display: flex;
     flex-direction: column;
@@ -195,7 +195,7 @@ a {
     }
 
     .section-top h1 {
-        font-size: 2.8rem;
+        font-size: 2.2rem;
     }
 
     .section-middle {
@@ -216,7 +216,7 @@ a {
     }
 
     .section-bottom {
-        margin-top: 135px;
+        margin-top: 170px;
     }
 
     .section-bottom img {
