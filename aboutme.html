@@ -1,51 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Stuff About Me">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Stuff About Me" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="navToggle.js" defer></script>
     <title>LitxDev | About Me</title>
-</head>
-<body>
+  </head>
+
+  <body>
     <nav class="navbar" data-aos="fade-in">
-       <div class="brand-title"><a href="http://litxdev.tk">LitxDev</a></div>
-       <a href="#" class="toggle-button">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </a>
-       <div class="navbar-links">
-           <ul>
-               <li><a href="http://litxdev.tk">Home</a></li>
-               <li><a href="http://litxdev.tk/games">Games</a></li>
-               <li><a href="http://litxdev.tk/aboutme">About me</a></li>
-           </ul>
-       </div>
+      <div class="brand-title"><a href="http://litxdev.tk">LitxDev</a></div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="http://litxdev.tk">Home</a></li>
+          <li><a href="http://litxdev.tk/games">Games</a></li>
+          <li><a href="http://litxdev.tk/aboutme">About me</a></li>
+        </ul>
+      </div>
     </nav>
 
-        <div class="centered about-section">
-            <h1 data-aos="fade-down">An indie game developer using godot</h1>
-            <h1 data-aos="fade-down">I make 2d pixel games and 3d games</h1>
-            <h1 data-aos="fade-down">I really like doing my own stuff without using assets</h1>
-            <h1 data-aos="zoom-in">and I like making websites</h1>
-            <h1 data-aos="fade-up">and I sometimes make linux applications with qt</h1>
-            <h1 data-aos="fade-up">I really like computers and finding new things</h1>
-            <h1 data-aos="slide-up">I still didn't finish any games just prototypes</h1>
-        </div>
-    
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>AOS.init(
-        {
-                once: false,
-                mirror: true,
-                anchorPlacement: 'top-bottom',
-                offset: 0,
-                duration: 800
-        });
-        </script>
-</body>
+    <div class="centered about-section">
+      <div data-aos="flip-up">
+        <h1>An indie game developer using godot</h1>
+        <h1>I make 2d pixel games and 3d games</h1>
+        <h1>I really like doing my own stuff without using assets</h1>
+      </div>
+
+      <h1 data-aos="zoom-in">and I like making websites</h1>
+
+      <div data-aos="flip-down">
+        <h1>and I sometimes make linux applications with qt</h1>
+        <h1>I really like computers and finding new things</h1>
+        <h1>I still didn't finish any games just prototypes</h1>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: false,
+        mirror: true,
+        anchorPlacement: "top-bottom",
+        offset: 0,
+        duration: 1200,
+      });
+    </script>
+  </body>
 </html>
