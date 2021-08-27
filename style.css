@@ -112,6 +112,7 @@ a {
     padding: 0.6rem;
     font-size: 2rem;
     border-radius: 2rem;
+    filter: drop-shadow(3px 3px 5px #272727);
     background-color: #82A3FF;
 }
 
@@ -127,7 +128,7 @@ a {
     width: 128px;
     height: 128px;
     margin: 0 2rem 0 2rem;
-    filter: drop-shadow(1px 1px 3px #272727);
+    filter: drop-shadow(3px 3px 5px #272727);
 }
 
 .section-bottom a:hover {
